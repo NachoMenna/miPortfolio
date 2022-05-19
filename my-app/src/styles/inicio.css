@@ -1,0 +1,57 @@
+* {
+    box-sizing: inherit;
+}
+
+.inicio {
+    display: block;
+    height: 100%;
+    max-width: 1000px;
+    padding: 0px;
+}
+
+.holder {
+    color: var(--text-color);
+    box-sizing: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+p {
+    color: #59e3c5;
+    font-family: var(--p-font-family);
+}
+
+h1 {
+    color: #ccd6f6;
+    font-size: clamp(40px, 8vw, 80px);
+    font-family: sans-serif;
+    margin: 20px 0px 0px -2px;
+}
+
+h2 {
+    font-size: clamp(40px, 8vw, 80px);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
+    margin: 10px 0px 0px -2px;
+    margin-left: -2px;
+}
+
+.comentario {
+    color: var(--text-color);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 540px;
+    margin: 20px auto auto -2px;
+}
+
+.mi-cv {
+    width: 230px;
+    height: 56px;
+    border-radius: 6px;
+    border:solid 1px#59e3c5;
+    margin: 50px auto auto -2px;
+    color: #59e3c5;
+}
+

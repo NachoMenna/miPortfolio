@@ -1,0 +1,15 @@
+#items-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#item {
+    color: #ccd6f6;
+    font-family: var(--p-font-family);
+    font-size: 14px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
