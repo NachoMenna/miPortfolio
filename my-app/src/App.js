@@ -20,7 +20,7 @@ function App() {
         <Habilidades />
       </div>
       <aside className="left">
-        <ul className='lista'>
+        <ul className='list'>
           <li><FontAwesomeIcon icon={faGithub} id='icon' /></li>
           <li><FontAwesomeIcon icon={faInstagram} id='icon' /></li>
           <li><FontAwesomeIcon icon={faTwitter} id='icon' /></li>
@@ -30,9 +30,9 @@ function App() {
         <div id='line-left'>
         </div>
       </aside>
-      <aside className="rigth">
+      <aside className="right">
         <a href='mailto:ignaciomenna53@gmail.com' id='email'>ignaciomenna53@gmail.com</a>
-        <div id='line-rigth'>
+        <div id='line-right'>
         </div>
       </aside>
 
